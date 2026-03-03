@@ -28,8 +28,3 @@
 .role p {
     margin: 10px 0px;
 }
-
-.a_nav_roles {
-    outline: 0px 1px 1px 1px solid var(--ghost_white);
-    outline-offset: -1px;
-}
