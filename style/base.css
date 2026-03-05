@@ -5,5 +5,11 @@
     --soft_sage: #708768;
     --ghost_white: #EDF3FC;
 
-    --general-font: sans-serif;
+    --general-font: "Montserrat" sans-serif;
+    --special_font: "Merriweather", sans-serif;
+
+    --bigger_header: max(30px, 3vw);
+    --header: max(16px, 1.3vw);
+    --normal_font: max(16px, 1vw);
+    --call_to_action: max(16px, 1.5vw);
 }
