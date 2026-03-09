@@ -1,10 +1,10 @@
-#web_roles_main {
+.web_roles_main {
     display: flex;
     align-items: start;
     width: 80%;
     margin: 0px auto;
 }
 
-#web_roles_main p, li {
+.web_roles_main p, li {
     margin: 5px 0px;
 }
