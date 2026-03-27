@@ -25,4 +25,8 @@
     .a_home_nav {
         display: flex;
     }
+
+    .profile {
+        width: 80%;
+    }
 }
