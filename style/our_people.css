@@ -1,0 +1,36 @@
+.profile {
+    min-height: 200px;
+    height: fit-content;
+    width: 65%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    margin: 20px 0px 0px 0px;
+
+    background-color: var(--base_colour);
+}
+
+.mask {
+    height: 200px;
+    width: 65%;
+
+    display: none;
+
+    background-color: rgba(255, 0, 0, 0);
+
+    border: 1px solid black;
+}
+
+.profile_info {
+    background-color: purple;
+}
+
+.profile:hover .mask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
