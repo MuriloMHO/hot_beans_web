@@ -29,4 +29,8 @@
     .profile {
         width: 80%;
     }
+
+    #office_cont {
+        display: block;
+    }
 }

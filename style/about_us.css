@@ -1,0 +1,10 @@
+#about_us_main {
+    display: flex;
+    align-items: start;
+    width: 80%;
+    margin: 0px auto;
+}
+
+#about_us_main p, #about_us_main li {
+    margin: 5px 0px;
+}
