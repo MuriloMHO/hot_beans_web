@@ -56,7 +56,7 @@
     background-color: var(--soft_sage);
 }
 
-.profile_info > p {
+.profile_info > p, .profile_info ul {
     color: var(--ghost_white);
 }
 
