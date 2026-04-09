@@ -156,11 +156,7 @@ Modifies just the base Nav that is used accross all pages, does not include cust
     list-style-type: none;
 }
 
-.dropdown:hover .dropdown_content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+
 
 .dropdown_content {
     width: 12%;
