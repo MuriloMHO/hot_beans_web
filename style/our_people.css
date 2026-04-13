@@ -12,6 +12,7 @@
 
     background-color: var(--base_colour);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .profile_preview {
