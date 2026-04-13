@@ -1,0 +1,24 @@
+#application_main {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+    flex-direction: column;
+}
+
+#application_main p, #application_main li {
+    margin: 5px 0px;
+}
+
+#application_form {
+    display: flex;
+    flex-direction: column;
+}
+
+#application_form label {
+    margin-top: 16px;
+}
+
+#application_form #submit {
+    margin-top: 16px;
+}

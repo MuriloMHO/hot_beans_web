@@ -90,8 +90,6 @@ Modifies just the base Nav that is used accross all pages, does not include cust
     justify-content: center;
 
     background-color: var(--soft_sage);
-
-    border: 1px solid var(--deep_forest);
 }
 
 .ul_nav {
@@ -168,8 +166,6 @@ Modifies just the base Nav that is used accross all pages, does not include cust
     z-index: 1;
 
     background-color: var(--soft_sage);
-
-    border: 1px solid var(--deep_forest);
 }
 
 .a_dropdown {
@@ -288,8 +284,6 @@ Modifies just the base Footer that is used accross all pages, does not include c
     padding: 10px;
 
     background-color: var(--base_colour);
-
-    border: 1px solid var(--deep_forest);
 }
 
 .ul_footer {
