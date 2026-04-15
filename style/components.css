@@ -92,7 +92,6 @@ Modifies just the base Nav that is used accross all pages, does not include cust
     justify-content: center;
 
     background-color: var(--soft_sage);
-    border: 1px solid var(--soft_sage);
 }
 
 .ul_nav {
