@@ -1,0 +1,11 @@
+#privacy_main {
+    display: flex;
+    align-items: start;
+    width: 80%;
+    margin: 0px auto;
+    flex-direction: column;
+}
+
+#privacy_main p, #privacy_main li {
+    margin: 5px 0px;
+}

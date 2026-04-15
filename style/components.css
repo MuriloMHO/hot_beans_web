@@ -1,5 +1,7 @@
 /*
+
 This document is resposible for holding all base configuration for the Website pages, specific configs for page elements should be held in their respective documents
+
 */
 
 /*
@@ -90,8 +92,7 @@ Modifies just the base Nav that is used accross all pages, does not include cust
     justify-content: center;
 
     background-color: var(--soft_sage);
-
-    border: 1px solid var(--deep_forest);
+    border: 1px solid var(--soft_sage);
 }
 
 .ul_nav {
@@ -118,6 +119,8 @@ Modifies just the base Nav that is used accross all pages, does not include cust
     list-style-type: none;
 
     border-radius: 50px;
+
+    transition: border 2s;
 }
 
 .a_nav {
@@ -126,9 +129,11 @@ Modifies just the base Nav that is used accross all pages, does not include cust
 
     color: var(--ghost_white);
     text-decoration: none;
+
+    transition: border 2s;
 }
 
-.a_nav:hover {
+.li_nav:hover {
     outline: 1px solid var(--ghost_white);
     outline-offset: -1px;
     border-radius: 50px;
@@ -168,8 +173,6 @@ Modifies just the base Nav that is used accross all pages, does not include cust
     z-index: 1;
 
     background-color: var(--soft_sage);
-
-    border: 1px solid var(--deep_forest);
 }
 
 .a_dropdown {
@@ -288,8 +291,6 @@ Modifies just the base Footer that is used accross all pages, does not include c
     padding: 10px;
 
     background-color: var(--base_colour);
-
-    border: 1px solid var(--deep_forest);
 }
 
 .ul_footer {

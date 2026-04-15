@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Appplication Form</title>
     <link rel="stylesheet" href="../style/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,73 +66,43 @@
                 <li class="li_nav">Privacy Terms</li>
             </a>
         </ul>
+
+        <a href="../index.html" class="a_home_nav">Home</a>
     </nav>
 
-    <main class="base_main web_roles_main">
-        <h1>Web Developer</h1>
-        <p>Hot Beans Web - Peterborough PE1</p>
-        <p>£28,000 - £35,000 a year - Full-time, Permanent</p>
+    <main id="application_main">
+        <div id="green_cont">
+            <h1>
+                Application Form
+            </h1>
+            <div id="white_cont">
+                <form action="" method="post" id="application_form">
+                    <label for="first">First Name: </label>
+                    <input type="text" placeholder="Murilo" name="first" id="first" required>
+            
+                    <label for="last">Last Name:</label>
+                    <input type="text" placeholder="Hoffman" name="last" id="last" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+            
+                    <label for="number">Mobile Number:</label>
+                    <input type="tel" name="number" id="mobile" placeholder="xx xxxxxxx xxxx" required>
+                    <label for="roles">Role</label>
+                    <select name="role" id="role" required>
+                        <option value="" selected>Select Role...</option>
+                        <option value="Web Designer">Web Designer</option>
+                        <option value="Web Developer">Web Developer</option>
+                    </select>
+            
+                    <label for="cv">Your CV:</label>
+                    <input type="file" name="cv" id="cv" required>
+                    <input type="submit" value="Submit" id="submit">
+                </form>
 
-        <p>
-            We are now looking to build our in-house systems development team with the appointment of a junior web developer.
-            The successful candidate will help develop  back and front-end systems for our clients including eCommerce and B2B systems where you can see your ideas come to life.
-        </p>
-        <p>As a small development team, you will have to opportunity to work across multiple technical domains developing a breadth of skills.</p>
-
-        <h1>You will:</h1>
-        <ul>
-            <li>Your primary task as a web developer will be to create reliable and high-performing web-based applications and services.</li>
-            <li>Focusing solely on the underlying software and databases and working with other teams on the interface and visual design.</li>
-            <li>Establish and promote design guidelines, best practices and standards</li>
-        </ul>
-
-        <h1>Essentials:</h1>
-        <ul>
-            <li>Experience with HTML, CSS, & JavaScript</li>
-            <li>Exposure or Experience with one or more procedural programming languages, such as PHP, Java, C# (.Net), Python, CFML.</li>
-            <li>
-                Exposure or Experience with one or more associated technologies:
-                Database technologies (SQL Server, MySQL), Windows Server or Linux Distributions, Development Tools, (IDEs, CLIs, Toolchains), Git (Or another VCS)
-            </li>
-            <li>An Organised and Pragmatic approach to Solving Problems.</li>
-            <li>The ability to work as part of a team including both technical and non-technical members.</li>
-            <li>Proven ability to initiate and manage projects, including working to tight deadlines and managing your own workloads.</li>
-            <li>Demonstrable passion for new technologies and design trends.</li>
-        </ul>
-
-        <h1>Desirable</h1>
-        <p>In addition to the above the Ideal candidate would have experience working with the Salesforce platform.</p>
-
-        <h1>What we offer?</h1>
-        <ul>
-            <li>Competitive salary.</li>
-            <li>Additional Holiday to be taken on your birthday.</li>
-            <li>Company Bonus schemes.</li>
-            <li>Flexible working – 1 day per week guaranteed from home, if desired.</li>
-            <li>Regular team outings and socials.</li>
-            <li>A relaxed, fun and dynamic working environment</li>
-            <li>Job Types: Full-time, Permanent</li>
-            <li>Salary: £24,000.00-£30,000.00 per year</li>
-        </ul>
-
-        <h1>Additional pay:</h1>
-        <ul>
-            <li>Bonus scheme</li>
-            <li>Performance bonus</li>
-            <li>Yearly bonus</li>
-        </ul>
-
-        <h1>Benefits:</h1>
-        <ul>
-            <li>Casual dress</li>
-            <li>Company events</li>
-            <li>Work from home</li>
-        </ul>
-
-        <h1>Schedule:</h1>
-        <ul><li>Monday to Friday</li></ul>
-
-        <a href="application.html" target="_blank" class="appli_link">Apply Now!</a>
+                <div id="response"></div>
+            </div>
+        </div>
     </main>
 
     <footer class="base_footer">
