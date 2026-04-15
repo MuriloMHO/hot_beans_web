@@ -50,16 +50,19 @@
 }
 
 .profile_info {
-    padding: 24px;
+    padding: 8px;
 
     display: none;
 
-    border-radius: 0px 0px 8px 8px;
-    background-color: var(--soft_sage);
+    border-radius: 0px 0px 16px 16px;
+    background-color: var(--base_colour);
 }
 
-.profile_info > p, .profile_info ul {
-    color: var(--ghost_white);
+.profile_info_cont {
+    padding: 16px;
+
+    border-radius: 16px;
+    background-color: var(--ghost_white);
 }
 
 .profile:hover .profile_info {
