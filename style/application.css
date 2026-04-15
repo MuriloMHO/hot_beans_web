@@ -6,10 +6,6 @@
     flex-direction: column;
 }
 
-#application_main p, #application_main li {
-    margin: 5px 0px;
-}
-
 #application_form {
     display: flex;
     flex-direction: column;
@@ -31,13 +27,14 @@
     margin-top: 16px;
     padding: 0px 8px 8px 8px;
 
-    border-radius: 5px;
+    border-radius: 16px;
     background-color: var(--soft_sage);
 }
 
 #green_cont > h1 {
+    font-size: var(header);
     color: var(--ghost_white);
-    margin: 16px 0px 16px 0px;
+    margin: 24px 0px 24px 0px;
 }
 
 #white_cont {
@@ -48,18 +45,28 @@
 
     padding: 8px;
 
-    border-radius: 5px;
+    border-radius: 16px;
     background-color: var(--ghost_white);
 }
 
 label {
     color: var(--pine-night);
+    margin: 8px 0px 4px 4px;
+
+    font-size: var(--header);
+    font-family: --special_font;
 }
 
 input {
-    padding: 4px;
-    border-radius: 5px;
+    padding: 8px;
+    border-radius: 16px;
     border: 0px solid var(--ghost_white);
+}
+
+select {
+    border: 0px;
+    border-radius: 16px;
+    padding: 8px;
 }
 
 #submit {
@@ -68,6 +75,10 @@ input {
     background-color: var(--soft_sage);
     color: var(--ghost_white);
     align-self: center;
+    font-size: var(normal_font);
+    font-family: var(--special_font);
+
+    border-radius: 16px;
 }
 
 #response {

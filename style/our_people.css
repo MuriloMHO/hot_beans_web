@@ -8,11 +8,13 @@
 
     flex-direction: column;
 
-    margin: 20px auto 0px auto;
+    margin: 24px auto 0px auto;
 
     background-color: var(--base_colour);
-    border-radius: 5px;
+    border-radius: 16px;
     cursor: pointer;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
 }
 
 .profile_preview {
@@ -30,7 +32,7 @@
     min-width: 80px;
     width: 20%;
 
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 16px 0px 0px 16px;
 }
 
 .people_name {
@@ -40,7 +42,7 @@
 }
 
 .sign {
-    margin: 5px 5px 5px auto;
+    margin: 8px 8px 8px auto;
     color: var(--ghost_white);
     font-size: var(--bigger_header);
 
@@ -48,11 +50,11 @@
 }
 
 .profile_info {
-    padding: 20px;
+    padding: 24px;
 
     display: none;
 
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 8px 8px;
     background-color: var(--soft_sage);
 }
 

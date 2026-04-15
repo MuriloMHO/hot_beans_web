@@ -3,10 +3,10 @@ let clickMenu = function() {
     const botton = document.querySelector(".dropbtn");
     
     if (items.style.display === 'none' || items.style.display === "") {
-        items.style.display = 'block'
+        items.style.display = 'block';
         botton.innerHTML = "X";
     } else {
-        items.style.display = 'none'
+        items.style.display = 'none';
         botton.innerHTML = "☰";
     }
 };

@@ -1,5 +1,5 @@
 #roles_main {
-    padding: 10px;
+    padding: 16px;
 }
 
 #roles_main a {
@@ -10,10 +10,11 @@
 
 .role {
     background-color: var(--base_colour);
-    margin-top: 25px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid var(--pine_night);
+    margin-top: 24px;
+    padding: 16px;
+    border-radius: 16px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .role:hover {
@@ -26,5 +27,5 @@
 }
 
 .role p {
-    margin: 10px 0px;
+    margin: 4px 0px;
 }

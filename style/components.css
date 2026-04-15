@@ -21,8 +21,6 @@ Modifies just the base header that is used accross all pages, does not include c
     align-items: center;
 
     background-color: var(--base_colour);
-
-    border: 0px 1px solid var(--deep_forest);
 }
 
 /*Logo and Website Name Subsection*/
@@ -48,7 +46,7 @@ Modifies just the base header that is used accross all pages, does not include c
 
     font-size: max(30px, 2vw);
     color: var(--ghost_white);
-    text-indent: 10px;
+    text-indent: 16px;
 }
 
 /*Home Button Subsection*/
@@ -67,11 +65,12 @@ Modifies just the base header that is used accross all pages, does not include c
     font-weight: bold;
     text-decoration: none;
 
-    border-radius: 5px;
+    border-radius: 16px;
+    transition: box-shadow 0.5s ease;
 }
 
 .a_home:hover {
-    border: 1px solid var(--ghost_white);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*
@@ -92,6 +91,8 @@ Modifies just the base Nav that is used accross all pages, does not include cust
     justify-content: center;
 
     background-color: var(--soft_sage);
+    border: 1px solid var(--soft_sage);
+    border-left-width: 0px;
 }
 
 .ul_nav {
@@ -109,7 +110,7 @@ Modifies just the base Nav that is used accross all pages, does not include cust
     align-items: center;
     justify-content: center;
 
-    padding: 0px 5px;
+    padding: 0px 8px;
     margin: 0px;
 
     font-size: var(--normal_font);
@@ -119,7 +120,7 @@ Modifies just the base Nav that is used accross all pages, does not include cust
 
     border-radius: 50px;
 
-    transition: border 2s;
+    transition: box-shadow 0.5s ease;
 }
 
 .a_nav {
@@ -128,13 +129,10 @@ Modifies just the base Nav that is used accross all pages, does not include cust
 
     color: var(--ghost_white);
     text-decoration: none;
-
-    transition: border 2s;
 }
 
 .li_nav:hover {
-    outline: 1px solid var(--ghost_white);
-    outline-offset: -1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 50px;
 }
 
@@ -152,6 +150,12 @@ Modifies just the base Nav that is used accross all pages, does not include cust
     font-size: var(--menu);
     font-weight: bold;
     cursor: pointer;
+
+    transition: box-shadow 0.5s ease;
+}
+
+.dropbtn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .dropdown {
@@ -172,6 +176,7 @@ Modifies just the base Nav that is used accross all pages, does not include cust
     z-index: 1;
 
     background-color: var(--soft_sage);
+    border: 1px solid var(--soft_sage);
 }
 
 .a_dropdown {
@@ -186,18 +191,18 @@ Modifies just the base Nav that is used accross all pages, does not include cust
     align-items: center;
     justify-content: center;
 
-    padding: 10px;
+    padding: 16px;
 
     font-size: var(--normal_font);
     font-family: var(--special_font);
     font-weight: bold;
     list-style-type: none;
-    
+
+    transition: box-shadow 0.5s ease;
 }
 
 .li_dropdown:hover {
-    outline: 1px solid var(--ghost_white);
-    outline-offset: -1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .a_home_nav {
@@ -215,11 +220,13 @@ Modifies just the base Nav that is used accross all pages, does not include cust
     text-decoration: none;
     font-weight: bold;
 
-    border-radius: 5px;
+    border-radius: 16px;
+
+    transition: box-shadow 0.5s ease;
 }
 
 .a_home_nav:hover {
-    border: 1px solid var(--ghost_white);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*
@@ -242,13 +249,13 @@ Modifies just the base Main that is used accross all pages, does not include cus
 }
 
 main p {
-    margin: 10px 0px;
+    margin: 4px 0px;
 
     font-size: var(--normal_font);
 }
 
 main h1 , main h2{
-    margin-top: 25px;
+    margin-top: 24px;
     
     color: var(--pine_night);
     font-size: var(--header);
@@ -256,11 +263,11 @@ main h1 , main h2{
 }
 
 main ul {
-    margin: 10px 0px 0px 20px;
+    margin: 8px 0px 8px 24px;
 }
 
 main li {
-    margin-top: 2px;
+    margin-top: 4px;
 
     font-size: var(--normal_font);
 }
@@ -286,8 +293,8 @@ Modifies just the base Footer that is used accross all pages, does not include c
     align-items: center;
     justify-content: space-evenly;
 
-    margin-top: 50px;
-    padding: 10px;
+    margin-top: 48px;
+    padding: 16px;
 
     background-color: var(--base_colour);
 }
@@ -299,7 +306,7 @@ Modifies just the base Footer that is used accross all pages, does not include c
 }
 
 .li_footer {
-    padding-top: 5px;
+    padding-top: 4px;
 
     color: var(--ghost_white);
     font-size: var(--normal_font);
@@ -307,7 +314,7 @@ Modifies just the base Footer that is used accross all pages, does not include c
 }
 
 .li_footer_title {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     
     font-size: var(--call_to_action);
     font-family: var(--special_font);
