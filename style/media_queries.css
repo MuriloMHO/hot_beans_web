@@ -29,4 +29,8 @@
     .profile {
         width: 80%;
     }
+
+    .dropbtn:hover {
+        box-shadow: none;
+    }
 }
