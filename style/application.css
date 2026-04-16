@@ -20,7 +20,8 @@
 }
 
 #green_cont {
-    width: 500px;
+    min-width: 280px;
+    width: 50%;
 
     flex-direction: column;
 
