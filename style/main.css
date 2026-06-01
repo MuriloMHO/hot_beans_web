@@ -1,4 +1,4 @@
-@import url(rest.css);
+@import url(reset.css);
 @import url(components.css);
 @import url(base.css);
 @import url(media_queries.css);
@@ -9,3 +9,4 @@
 @import url(about_us.css);
 @import url(privacy.css);
 @import url(application.css);
+@import url(courses.css);
